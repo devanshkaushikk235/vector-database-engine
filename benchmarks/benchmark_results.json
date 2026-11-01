@@ -1,0 +1,147 @@
+{
+  "exp1_ef_search": [
+    {
+      "ef_search": 16,
+      "recall": 0.805,
+      "p95_latency_ms": 5.592
+    },
+    {
+      "ef_search": 32,
+      "recall": 0.915,
+      "p95_latency_ms": 3.169
+    },
+    {
+      "ef_search": 64,
+      "recall": 0.99,
+      "p95_latency_ms": 4.038
+    },
+    {
+      "ef_search": 128,
+      "recall": 1.0,
+      "p95_latency_ms": 4.72
+    },
+    {
+      "ef_search": 256,
+      "recall": 1.0,
+      "p95_latency_ms": 7.194
+    },
+    {
+      "ef_search": 512,
+      "recall": 1.0,
+      "p95_latency_ms": 11.497
+    }
+  ],
+  "exp2_m_params": [
+    {
+      "M": 4,
+      "memory_mb": 0.56,
+      "recall": 0.675
+    },
+    {
+      "M": 8,
+      "memory_mb": 0.62,
+      "recall": 0.93
+    },
+    {
+      "M": 16,
+      "memory_mb": 0.74,
+      "recall": 0.99
+    },
+    {
+      "M": 32,
+      "memory_mb": 0.98,
+      "recall": 1.0
+    },
+    {
+      "M": 64,
+      "memory_mb": 1.28,
+      "recall": 1.0
+    }
+  ],
+  "exp3_crossover": [
+    {
+      "n": 200,
+      "flat_qps": 3537.9,
+      "ivf_qps": 7458.0,
+      "hnsw_qps": 1011.0
+    },
+    {
+      "n": 500,
+      "flat_qps": 1148.9,
+      "ivf_qps": 4613.8,
+      "hnsw_qps": 161.5
+    },
+    {
+      "n": 1000,
+      "flat_qps": 550.9,
+      "ivf_qps": 5446.2,
+      "hnsw_qps": 294.4
+    },
+    {
+      "n": 2000,
+      "flat_qps": 250.0,
+      "ivf_qps": 1803.6,
+      "hnsw_qps": 216.9
+    },
+    {
+      "n": 4000,
+      "flat_qps": 82.2,
+      "ivf_qps": 678.1,
+      "hnsw_qps": 189.0
+    }
+  ],
+  "exp4_filtering": [
+    {
+      "selectivity_percent": 10,
+      "pre_filter_recall": 0.65,
+      "post_filter_recall": 0.26
+    },
+    {
+      "selectivity_percent": 25,
+      "pre_filter_recall": 1.0,
+      "post_filter_recall": 0.69
+    },
+    {
+      "selectivity_percent": 50,
+      "pre_filter_recall": 0.975,
+      "post_filter_recall": 0.975
+    },
+    {
+      "selectivity_percent": 75,
+      "pre_filter_recall": 0.99,
+      "post_filter_recall": 0.99
+    },
+    {
+      "selectivity_percent": 90,
+      "pre_filter_recall": 0.99,
+      "post_filter_recall": 0.99
+    }
+  ],
+  "exp5_build_time": [
+    {
+      "n": 200,
+      "hnsw_build_time_sec": 0.581,
+      "ivf_build_time_sec": 0.019
+    },
+    {
+      "n": 500,
+      "hnsw_build_time_sec": 1.867,
+      "ivf_build_time_sec": 0.061
+    },
+    {
+      "n": 1000,
+      "hnsw_build_time_sec": 5.977,
+      "ivf_build_time_sec": 0.14
+    },
+    {
+      "n": 2000,
+      "hnsw_build_time_sec": 15.518,
+      "ivf_build_time_sec": 0.402
+    },
+    {
+      "n": 4000,
+      "hnsw_build_time_sec": 33.391,
+      "ivf_build_time_sec": 3.316
+    }
+  ]
+}

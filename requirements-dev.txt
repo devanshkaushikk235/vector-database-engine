@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest>=7.0.0
+httpx>=0.24.0
+matplotlib>=3.7.0
