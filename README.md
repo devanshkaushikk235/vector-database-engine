@@ -1,10 +1,10 @@
-# VecDB: Approximate Nearest-Neighbor Vector Database from First Principles
+# Vector database engine: Approximate Nearest-Neighbor Vector Database from First Principles
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/tests-63%2F63%20passing-brightgreen.svg)]()
 
-VecDB is an approximate nearest-neighbor (ANN) vector database built entirely **from first principles** in Python 3.11+ using NumPy for vector math only. It features **Hierarchical Navigable Small World (HNSW)**, **Inverted File (IVF)**, **Product Quantization (PQ)**, and **Flat brute-force** indexing algorithms, alongside Write-Ahead Logging (WAL), binary snapshot persistence, metadata filtering, a FastAPI REST service with Prometheus metrics, a single-page Web Monitoring Dashboard, a Python SDK, and a CLI tool.
+Vector database engine is an approximate nearest-neighbor (ANN) vector database built entirely **from first principles** in Python 3.11+ using NumPy for vector math only. It features **Hierarchical Navigable Small World (HNSW)**, **Inverted File (IVF)**, **Product Quantization (PQ)**, and **Flat brute-force** indexing algorithms, alongside Write-Ahead Logging (WAL), binary snapshot persistence, metadata filtering, a FastAPI REST service with Prometheus metrics, a single-page Web Monitoring Dashboard, a Python SDK, and a CLI tool.
 
 ---
 
